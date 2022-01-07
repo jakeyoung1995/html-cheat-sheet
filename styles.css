@@ -1,0 +1,44 @@
+.code {
+    font-family: monospace;
+    font-size: 15pt;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background:#CCC;
+}
+
+th {
+    font-size: 15pt;
+    padding: 10px;
+    text-align: left;
+}
+
+table {
+    margin-left: 10%;
+    border: 1px solid #CCC; 
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption {
+    font-size: 20pt;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+thead {
+    background-color: rgb(192, 120, 120);
+}
+
+body {
+    text-align: center;
+    background-color: rgb(219, 219, 219);
+    font-family: Verdana, sans-serif;
+}
